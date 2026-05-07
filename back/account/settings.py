@@ -30,9 +30,9 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "169.254.130.2",
+    "127.0.0.1",
     "localhost",
-    "truite-a5gjbdc8fkesdeh7.francecentral-01.azurewebsites.net",
+    "truite-a-g6dug0amdqdqa4dq.francecentral-01.azurewebsites.net",
 ]
 
 
