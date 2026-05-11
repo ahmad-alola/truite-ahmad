@@ -30,9 +30,16 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
     "localhost",
-    "truite-a-g6dug0amdqdqa4dq.francecentral-01.azurewebsites.net",
+    "127.0.0.1",
+    ".azurewebsites.net",
+    ".onrender.com",
+    "truite-ahmad.onrender.com",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.azurewebsites.net",
+    "https://*.onrender.com",
 ]
 
 
